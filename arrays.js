@@ -25,7 +25,10 @@ function accessElementInArray(anArray, index){
     return anArray[index];
 }
 
-
+function destructivelyRemoveElementFromBeginningOfArray(anArray){
+  anArray.shift();
+  return anArray;
+}
 
 
 
