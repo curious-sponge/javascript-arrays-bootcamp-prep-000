@@ -21,3 +21,12 @@ function destructivelyAddElementToEndOfArray(anArray, anElement){
   return anArray;
 }
 
+function accessElementInArray(anArray, index){
+    return anArray[index];
+}
+
+
+
+
+
+
