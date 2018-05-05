@@ -30,6 +30,10 @@ function destructivelyRemoveElementFromBeginningOfArray(anArray){
   return anArray;
 }
 
+function removeElementFromBeginningOfArray(anArray){
+  anArray.slice(1);
+  return anArray;
+}
 
 
 
