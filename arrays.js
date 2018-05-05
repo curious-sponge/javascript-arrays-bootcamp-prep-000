@@ -40,4 +40,19 @@ function destructivelyRemoveElementFromEndOfArray(anArray){
   return anArray;
 }
 
+function removeElementFromEndOfArray(anArray){
+    var bArray = anArray.slice(anArray.length - 1);
+    return bArray;
+}
+
+
+
+
+
+
+
+
+
+
+
 
