@@ -12,11 +12,11 @@ function destructivelyAddElementToBeginningOfArray(anArray, anElement){
 }
 
 function addElementToEndOfArray(anArray, anElement){
-   anArray.push(anElement);
-  return anArray;
+   var bArray = [...anArray, anElement];
+  return bArray;
 }
 
 function destructivelyAddElementToEndOfArray(anArray, anElement){
-  return [anArray,...anElement];
-  
+   anArray.push(anElement);
+  return anArray;
 }
